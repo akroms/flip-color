@@ -11,5 +11,5 @@ To see this site demo
 *****************************************************************
 Used technologies: 
 
-![alt text](./images/Techs.png "Used Technologies: HTML CSS JAVASCRIPT")
-
+![Used Technologies](./images/Techs.png "Used Technologies: HTML CSS JAVASCRIPT")
+Vanilla JavaScript
