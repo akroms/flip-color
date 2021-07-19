@@ -5,7 +5,7 @@ let colorName = document.getElementById("color-name");
 let colorCode = document.getElementById("color-code");
 let colorBody = document.body;
 
-/* Set Arry colors */
+/* Set Array colors */
 let colors = ["red", "blue", "orange", "aqua", "purple", "yellow", "lightgreen"];
 
 /* Random Function */
