@@ -5,5 +5,5 @@
 
 <img src="./Gif.gif" width="600" height="400" />
 
-
-[https://filp-color.netlify.app/]
+To see this site demo
+[click here](https://filp-color.netlify.app/)
