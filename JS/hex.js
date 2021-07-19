@@ -4,8 +4,6 @@ let buttonHover = document.getElementById("button-hover");
 let colorCode = document.getElementById("color-code");
 let colorBody = document.body;
 
-/* Set Arry colors */
-
 /* Random Function */
 let colorChange = function() {
     let random = Math.random() * 6;
