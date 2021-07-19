@@ -13,7 +13,7 @@ Used technologies:
 
 
 
-<img src="./images/Techs.png" width="300" height="165" />
+<img src="./images/Techs.png" width="300" height="160" />
 Vanilla JavaScript
 
 <!-- For logo
