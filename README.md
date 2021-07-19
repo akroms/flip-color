@@ -11,5 +11,14 @@ To see this site demo
 *****************************************************************
 Used technologies: 
 
-![Used Technologies](./images/Techs.png "Used Technologies: HTML CSS JAVASCRIPT")
+
+
+<img src="./images/Techs.png" width="300" height="150" />
 Vanilla JavaScript
+
+<!-- For logo
+
+![Used Technologies](./images/Techs.png "Used Technologies: HTML CSS JAVASCRIPT")
+
+ -->
+
