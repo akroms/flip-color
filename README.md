@@ -14,7 +14,11 @@ Used technologies:
 
 
 <img src="./images/Techs.png" width="300" height="160" />
+In this project used:
+HTML/CSS
 Vanilla JavaScript
+None of frameworks used in this little project
+like React or Vue
 
 <!-- For logo
 
