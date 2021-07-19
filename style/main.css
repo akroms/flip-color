@@ -1,0 +1,139 @@
+/* CSS Reset */
+
+*, ::before, ::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main style */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color:rgb(99, 25, 168);
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    letter-spacing: 3px;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+
+#color-type a {
+    padding-left:20px;
+}
+
+/* Main Section Style */
+
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 360px auto;
+}
+
+#main h1 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding:20px 70px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#color-name, 
+#color-code 
+{
+    color:rgb(31, 202, 31);
+    text-transform: none;
+}
+
+/* Button Style */
+
+#button,
+#button-hover 
+{
+    margin-top:30px;
+    width: 150px;
+    height:40px;
+    background-color:transparent;
+    border-radius: 10px;
+    border:2px solid black;
+    font-weight: 600; 
+    letter-spacing: 3px;  
+    text-transform: uppercase;
+}
+
+#button:hover,
+#button-hover:hover 
+{
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+
+/* Responsive */ 
+
+@media (max-width:768px){
+
+    #main h1 {
+        border-radius: 8px;
+        padding:20px 70px;
+        font-size: 30px;
+        margin-top:-50px;
+    }
+
+    #button,
+    #button-hover 
+    {
+        width: 120px;
+        height:30px;
+        font-size: 15px;
+        border-radius: 8px;
+        letter-spacing: 2px;  
+    }
+
+}
+
+@media (max-width:568px){
+
+    #main h1 {
+        border-radius: 6px;
+        font-size: 23px;
+        margin-top:-100px;
+    }
+
+    #button,
+    #button-hover
+    {
+        border-radius: 6px;
+        letter-spacing: 1px;  
+    }
+
+}
+
+@media (max-width:468px){
+
+    #navbar a {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    #main h1 {
+        font-size: 18px;
+    }
+
+}
+
